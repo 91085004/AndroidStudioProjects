@@ -16,8 +16,8 @@
         android:id="@+id/tvTitleMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:text="Choose Your Own Adventure_V01"
-        android:textAlignment="center"
         android:textSize="20sp" />
 
     <Space
