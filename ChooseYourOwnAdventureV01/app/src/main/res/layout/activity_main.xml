@@ -66,4 +66,8 @@
             android:layout_weight="1"
             android:text="Explore" />
     </LinearLayout>
+    <space>
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+    </space>
 </LinearLayout>
