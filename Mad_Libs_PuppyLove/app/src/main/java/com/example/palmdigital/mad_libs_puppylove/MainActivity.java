@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -22,6 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v)
     {
         EditText et_color = findViewById(R.id.et_color);
-        String 
+        String color1Str = et_color.getText().toString();
+
+        String story = "Today I saw him again. When he looks at me with those ";
+        story = story + color1Str;
+
+        TextView output = findViewById(R.id.tvStory);
+        output.setText(story);
     }
 }

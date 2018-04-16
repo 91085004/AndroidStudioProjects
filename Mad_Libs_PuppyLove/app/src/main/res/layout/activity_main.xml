@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a color"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_color"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a body part"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_bodyPart"
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a noun"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_noun"
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a verb"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_verb"
@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter an adjective"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_adjective"
@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter an adjective"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_adjective2"
@@ -165,7 +165,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a verb"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_verb2"
@@ -174,7 +174,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14sp" />
+            android:textSize="14dp" />
 
     </LinearLayout>
 
@@ -190,7 +190,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a noun"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_noun2"
@@ -199,7 +199,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14sp" />
+            android:textSize="14dp" />
 
     </LinearLayout>
 
@@ -215,7 +215,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a noun"'
-            android:textSize="12sp" />
+            android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_noun3"
@@ -224,7 +224,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14sp" />
+            android:textSize="14dp" />
     </LinearLayout>
 
     <Button
@@ -236,5 +236,6 @@
     <TextView
         android:id="@+id/tvStory"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
 </LinearLayout>
