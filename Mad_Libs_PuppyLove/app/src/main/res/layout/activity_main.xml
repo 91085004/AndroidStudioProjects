@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a color"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_color"
@@ -27,7 +32,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -43,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a body part"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_bodyPart"
@@ -52,7 +57,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -67,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a noun"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_noun"
@@ -76,7 +81,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -92,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a verb"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_verb"
@@ -101,7 +106,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -117,7 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter an adjective"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_adjective"
@@ -126,7 +131,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -140,7 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter an adjective"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_adjective2"
@@ -149,7 +154,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -165,7 +170,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a verb"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_verb2"
@@ -174,7 +179,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -190,7 +195,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a noun"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_noun2"
@@ -199,7 +204,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -215,7 +220,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text='"Enter a noun"'
-            android:textSize="14dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/et_noun3"
@@ -224,7 +229,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="14dp" />
+            android:textSize="18dp" />
     </LinearLayout>
 
     <Button
@@ -238,4 +243,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp" />
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
